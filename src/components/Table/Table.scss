@@ -1,0 +1,13 @@
+.table {
+    position: relative;
+    z-index: 10;
+
+    .table-container {
+        background-color: #fff;
+        position: absolute;
+        left: -150px;
+        min-height: 100%;
+        width: 1402px;
+        border-radius: 56px;
+    }
+}

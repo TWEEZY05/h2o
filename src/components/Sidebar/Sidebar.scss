@@ -1,0 +1,35 @@
+.wrapper {
+    min-width: 267px;
+    z-index: 0;
+    background: linear-gradient(180deg, #54d3c2 0%, #30898a 100%);
+    min-height: 100%;
+    padding: 55px 0 0 32px;
+    border-radius: 56px 56px 0px 56px;
+
+    .wrapper__container {
+        display: flex;
+        flex-direction: column;
+        gap: 85px;
+        width: 64px;
+
+        .wrapper__icons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 31px;
+        }
+    }
+    .active {
+
+        width:64px;
+        height: 64px;
+        background: rgba(169, 233, 224, 0.75) ;
+        border-radius: 16px;
+    }
+    button {
+        width: 64px;
+        height: 64px;
+        background: transparent;
+        cursor: pointer;
+    }
+}
